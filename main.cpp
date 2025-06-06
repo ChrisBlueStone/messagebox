@@ -1,4 +1,5 @@
-#include <winuser.h>
+#define WIN32_LEAN_AND_MEAN
+#include <windows.h>
 #include <cstdlib>
 
 int main(int argc, char** argv) {
